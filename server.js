@@ -44,6 +44,11 @@ function handleError(res, reason, message, code) {
  *    POST: creates a new contact
  */
 
+
+app.get("/", function(req, res) {
+    res.send('<p>Basic functionality</p>');
+  });
+
 app.get("/api/contacts", function(req, res) {
     db.collection(CONTACTS_COLLECTION).find({}).toArray(function(err, docs) {
       if (err) {
