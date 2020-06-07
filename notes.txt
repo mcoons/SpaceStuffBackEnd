@@ -1,0 +1,37 @@
+Installing Mongo Locally
+
+brew tap mongodb/brew
+
+brew install mongodb-community@4.2
+
+
+To run locally as a service
+
+brew services start mongodb-community@4.2
+
+brew services stop mongodb-community@4.2
+
+
+Manually as a background process
+
+mongod --config /usr/local/etc/mongod.conf --fork
+
+To stop a mongod running as a background process, 
+connect to the mongod from the mongo shell, 
+and issue the shutdown command as needed.
+
+
+To verify it is running
+
+ps aux | grep -v grep | grep mongod
+
+
+To start shell
+
+mongo
+
+
+
+
+
+
