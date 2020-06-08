@@ -113,7 +113,7 @@ function updateNewsDetails() {
                         handleError(res, err.message, "Failed to get news detail", 400);
                     } else {
                         // if null doc then query api for details and add result to collection
-                        if (doc = []) {
+                        if (doc == []) {
 
                             request('http://hubblesite.org/api/v3/news_release/:' + search_id, {
                                 json: true
