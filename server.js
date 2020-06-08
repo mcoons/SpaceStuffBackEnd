@@ -117,7 +117,7 @@ function updateNewsDetails() {
                         // if null doc then query api for details and add result to collection
                         if (doc == []) {
 
-                            request('http://hubblesite.org/api/v3/news_release/:' + search_id, {
+                            request('http://hubblesite.org/api/v3/news_release/' + search_id, {
                                 json: true
                             }, (err, res, body) => {
                                 if (err) {
