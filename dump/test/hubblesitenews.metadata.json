@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"test.hubblesitenews"}],"uuid":"2865d647b5e84361813be9a1499d3dab"}

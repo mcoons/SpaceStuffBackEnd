@@ -30,6 +30,8 @@ To start shell
 
 mongo
 
+db.createCollection('hubblesitevideodetail')
+
 
 
 
