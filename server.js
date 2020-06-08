@@ -42,7 +42,9 @@ mongodb.MongoClient.connect(process.env.MONGODB_URI || "mongodb://localhost:2701
     });
 
     // fillNews();
-    updateNewsDetails();
+    // updateNewsDetails();
+    updateImages();
+    updateVideos();
 
 });
 
