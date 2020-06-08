@@ -41,11 +41,11 @@ mongodb.MongoClient.connect(process.env.MONGODB_URI || "mongodb://localhost:2701
         console.log("App now running on port", port);
     });
 
-    // fillNews();
+    //fillNews();           // DONE!!
+    //updateImages();       // DONE!!
+    //updateVideos();       // DONE!!
+    
     // updateNewsDetails();
-    updateImages();
-    updateVideos();
-
 });
 
 // use to update IotD - needs tweaked
