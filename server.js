@@ -45,7 +45,7 @@ mongodb.MongoClient.connect(process.env.MONGODB_URI || "mongodb://localhost:2701
     //updateImages();       // DONE!!
     //updateVideos();       // DONE!!
     
-    // updateNewsDetails();
+    updateNewsDetails();
 });
 
 // use to update IotD - needs tweaked
